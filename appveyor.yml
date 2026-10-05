@@ -1,0 +1,8 @@
+image: Visual Studio 2022
+
+build_script:
+  - cmd: build-windows.cmd
+
+artifacts:
+  - path: _Build\windows\**\*
+    name: KytyBuild
